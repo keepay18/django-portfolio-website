@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/main.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Jakub Pikuła - Django portfolio</title>
+
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/kuba.png' %}" alt="">
+                    <hr>
+                    <h4>Hello, I am Jakub</h4>
+                    <p>I am a Bachelor of Mechanical Engineering graduated at the Cracow University of Technology and I
+                        am Student of Master’s degree. Also I finished Software Engineering Methods studies and I
+                        finished course „Python and Data Science”</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body">
+                    <p>I am a Bachelor of Mechanical Engineering graduated at the Cracow University of Technology and I
+                        am student of Master’s degree at the same University. Also, I finished Software Engineering
+                        Methods postgraduate studies at AGH University of Science and Technology. I finished course
+                        „Python and Data Science” at IT Academy in Cracow in which I learned how to use libraries like
+                        Pandas, Numpy, Matplotlib or Scikit - Learn in Machine Learning. In my spare time I learn
+                        various programming languages ​​such as JavaScript with React and Java. I am a very ambitious,
+                        open minded and diligent person.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+</body>
+
+</html>
